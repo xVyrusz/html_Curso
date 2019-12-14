@@ -4,9 +4,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: stretch;
+    height: 300px;
 }
 
 .contenedor div{
     border: 1px solid green;
+    flex-grow: 1;
+}
+
+.grande{
+    font-size: 2em;
+    align-self: stretch;
+    flex-grow: 1;
 }
