@@ -30,7 +30,7 @@ figure{
     color: #fff;
 }
 
-section{
+.hero{
     background-image: url(../images/img_cover_home.jpg);
     background-size: cover;
     background-position: top center;
