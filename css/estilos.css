@@ -38,3 +38,33 @@ li{
     justify-content: center;
     text-decoration: none;
 }
+
+section{
+    background-image: url(../images/img_cover_home.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 575px;
+    background-size: cover;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
