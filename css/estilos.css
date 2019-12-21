@@ -68,3 +68,9 @@ h1{
 h2{
     font-size: 2em;
 }
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
