@@ -75,9 +75,24 @@ h2{
     justify-content: center;
 }
 
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+
+.iconos div i{
+    font-size: 300%;
+    padding: 20px;
+    padding-top: 10px;
+}
+
 .ciudades img{
-    width: 300px;
+    width: 320px;
     height: 350px;
+}
+
+.ciudades p{
+    text-align: center;
 }
 
 .ciudades{
@@ -87,11 +102,16 @@ h2{
     justify-items: center;
 }
 
-@media all and (max-width: 480){
+@media all and (max-width: 480px){
+    
     .ciudades{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr 1fr;
         justify-items: center;
+    }
+
+    .estados{
+        display: inline;
     }
 }
