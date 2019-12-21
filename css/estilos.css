@@ -114,15 +114,4 @@ h2{
     .estados{
         display: inline;
     }
-
-    .iconos{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .iconos div i{
-        font-size: 300%;
-        padding: 20px;
-        padding-top: 10px;
-    }
 }
