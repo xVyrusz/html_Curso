@@ -39,7 +39,7 @@ li{
     text-decoration: none;
 }
 
-section{
+.hero{
     background-image: url(../images/img_cover_home.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -73,4 +73,16 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ciudades img{
+    width: 300px;
+    height: 350px;
+}
+
+.ciudades{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
 }
